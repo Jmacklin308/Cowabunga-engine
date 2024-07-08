@@ -1,4 +1,7 @@
-ooga booga
+
+# Fork of Ooga Booga Engine
+
+Ooga Booga
 
 ## Getting started
 If you'd like to learn how to use the engine to build a game, there's a completely free course in the [Skool community](https://www.skool.com/game-dev)

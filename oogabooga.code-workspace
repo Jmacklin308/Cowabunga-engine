@@ -7,6 +7,11 @@
 	"settings": {
 		"files.associations": {
 			"algorithm": "c"
-		}
+		},
+		"autoHide.autoHideSideBar": false,
+		"clangd.fallbackFlags": [
+			"-I${workspaceFolder}/oogabooga/oogabooga.c"
+		],
+		"C_Cpp.errorSquiggles": "disabled",
 	}
 }

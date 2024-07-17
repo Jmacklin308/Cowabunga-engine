@@ -1,5 +1,3 @@
-
-
 ///
 // Build config stuff
 
@@ -8,6 +6,8 @@
 typedef struct Context_Extra {
 	int monkee;
 } Context_Extra;
+
+
 // This needs to be defined before oogabooga if we want extra stuff in context
 #define CONTEXT_EXTRA Context_Extra
 
@@ -15,21 +15,24 @@ typedef struct Context_Extra {
 #define ENTRY_PROC entry
 
 // Ooga booga needs to be included AFTER configuration and BEFORE the program code
+
+
+// #Volatile tutorial below
+// #Volatile tutorial below
+// #Volatile tutorial below
+
+
 #include "oogabooga/oogabooga.c"
-
-// #Volatile tutorial below
-// #Volatile tutorial below
-// #Volatile tutorial below
-
 //
 // Comment & Uncomment these to swap projects (only include one at a time)
 //
 
 // this is a minimal starting point for new projects. Copy & rename to get started
-#include "oogabooga/examples/minimal_game_loop.c"
+#include "entry_newproject.c"
 
 // #include "oogabooga/examples/text_rendering.c"
 // #include "oogabooga/examples/renderer_stress_test.c"
 
 // This is where you swap in your own project!
 // #include "entry_yourepicgamename.c"
+
